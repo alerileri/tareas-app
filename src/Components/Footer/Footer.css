@@ -1,0 +1,38 @@
+footer {
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(154, 123, 154);
+}
+
+.footer-container{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.check-footer{
+    width: .7rem;
+    fill:greenyellow;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.pendientes{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 0.5rem;
+    margin: 0 auto;
+}
+
+.author-name {
+    color: whitesmoke;
+    font-size: 0.5rem;
+    margin: 0 auto;
+}
+
+a{
+    color: hotpink;
+    text-decoration: none;
+}
