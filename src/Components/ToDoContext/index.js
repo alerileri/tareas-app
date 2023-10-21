@@ -26,7 +26,7 @@ function ToDoProvider({ children }) {
 
     const searchedToDos = toDos.filter(
         (toDo) => {
-            const toDoText = toDo.text.toLowerCase();
+            const toDoText = (toDo.text || '').toLowerCase();
             const searchText = searchValue.toLowerCase();
             return toDoText.includes(searchText);
         }
