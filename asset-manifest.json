@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/tareas-app/static/css/main.6aa5fe96.css",
-    "main.js": "/tareas-app/static/js/main.913af737.js",
+    "main.js": "/tareas-app/static/js/main.e2fa82ce.js",
     "static/media/nnnoise.svg": "/tareas-app/static/media/nnnoise.f5c4c2cd957e555ce081.svg",
     "static/media/noisebackground.svg": "/tareas-app/static/media/noisebackground.f5c4c2cd957e555ce081.svg",
     "index.html": "/tareas-app/index.html",
     "static/media/DeleteIcon.svg": "/tareas-app/static/media/DeleteIcon.2b095607e6dfc568a1520c7ac390cbcb.svg",
     "static/media/CompleteIcon.svg": "/tareas-app/static/media/CompleteIcon.b448cec989f0b310ff319a7505242561.svg",
     "main.6aa5fe96.css.map": "/tareas-app/static/css/main.6aa5fe96.css.map",
-    "main.913af737.js.map": "/tareas-app/static/js/main.913af737.js.map"
+    "main.e2fa82ce.js.map": "/tareas-app/static/js/main.e2fa82ce.js.map"
   },
   "entrypoints": [
     "static/css/main.6aa5fe96.css",
-    "static/js/main.913af737.js"
+    "static/js/main.e2fa82ce.js"
   ]
 }
