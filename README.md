@@ -1,75 +1,34 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# Sobre el proyecto
 
-¡Hola, Platzinauta!
+[Pendientes App](https://alerileri.github.io/tareas-app/)es una aplicación web creada con React para la autogestión de tareas pendientes. 
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+## Funciones de la aplicación
 
-## Getting Started with Create React App
+ El objetivo de [Pendientes](https://alerileri.github.io/tareas-app/) es ofrecer al susuario diferentes herramientas para facilitar la organización individual a través del método de visualización de tareas. Algunas de esas herramientas son:
+ 1. Visualización de tareas en contenedores individuales
+ 2. Buscador de tareas para filtrar una vez que las tareas se acumulen
+ 3. Botón posicionado en la esquina inferior derecha (especialmente útil para la versión web) que abre ventana modal para crear nuevas tareas
+ 4. Ventana modal con espacio para escribir, así como botones de cancelar y añadir.
+ 5. Botón para marcar tarea como completada, que al hacer clic cambia el color del ícono de check a verde y tacha las letras de la tarea
+ 6. Botón para eliminar tarea a la derecha de cada contenedor
+ 7. Uso de local storage para guardar las tareas y su avance para que el usuario mantenga su información aunque cierre la ventana por accidente o pueda cerrarla si lo necesita.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Diseño
 
-In the project directory, you can run:
+### `Versión escritorio`
+![Desktop](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-desktop.png?raw=true)
 
-### `npm start`
+### `Versión tablet` 
+![Tablet](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-ipad.png?raw=true)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `Versión móvil` 
+![Vista inicial móvil](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-1.png?raw=true)
+![Vista to dos móvil](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-2.png?raw=true)
+![Vista modal móvil](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-3.png?raw=true)
+![Vista buscador móvil](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-4.png?raw=true)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
