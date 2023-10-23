@@ -17,18 +17,21 @@
 
 
 ## Diseño
+El diseño es responsivo, con una paleta de colores clara que introduce una textura tenue de ruido en el fondo. El objetivo del diseño es que funcione tanto para formatos de pantaññas grandes como para formatos de pantallas pequeñas, introduciendo también un diseño responsivo.
 
 ### `Versión escritorio`
-![Desktop](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-desktop.png?raw=true)
+![Desktop](https://github.com/alerileri/tareas-app/blob/main/img/pendientes-app-desktop.png?raw=true)
 
 ### `Versión tablet` 
-![Tablet](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-ipad.png?raw=true)
+![Tablet](https://github.com/alerileri/tareas-app/blob/main/img/pendientes-app-ipad.png?raw=true)
 
 ### `Versión móvil` 
-![Vista inicial móvil](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-1.png?raw=true)
-![Vista to dos móvil](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-2.png?raw=true)
-![Vista modal móvil](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-3.png?raw=true)
-![Vista buscador móvil](https://github.com/alerileri/tareas-app/blob/main/pendientes-app-4.png?raw=true)
+A continuación se muestran capturas de pantalla de la versión móvil al ejecutar diferentes funcionalidades de la aplicación.
+
+![Vista inicial móvil](https://github.com/alerileri/tareas-app/blob/main/img/pendientes-app-1.png?raw=true)
+![Vista to dos móvil](https://github.com/alerileri/tareas-app/blob/main/img/pendientes-app-2.png?raw=true)
+![Vista modal móvil](https://github.com/alerileri/tareas-app/blob/main/img/pendientes-app-3.png?raw=true)
+![Vista buscador móvil](https://github.com/alerileri/tareas-app/blob/main/img/pendientes-app-4.png?raw=true)
 
 
 
