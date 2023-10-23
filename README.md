@@ -1,6 +1,6 @@
 # Sobre el proyecto
 
-[Pendientes App](https://alerileri.github.io/tareas-app/)es una aplicación web creada con React para la autogestión de tareas pendientes. 
+[Pendientes](https://alerileri.github.io/tareas-app/) es una aplicación web creada con React para la autogestión de tareas pendientes. 
 
 
 
