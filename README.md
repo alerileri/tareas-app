@@ -6,7 +6,7 @@
 
 ## Funciones de la aplicación
 
- El objetivo de [Pendientes](https://alerileri.github.io/tareas-app/) es ofrecer al susuario diferentes herramientas para facilitar la organización individual a través del método de visualización de tareas. Algunas de esas herramientas son:
+ El objetivo de [Pendientes](https://alerileri.github.io/tareas-app/)  es ofrecer al susuario diferentes herramientas para facilitar la organización individual a través del método de visualización de tareas. Algunas de esas herramientas son:
  1. Visualización de tareas en contenedores individuales
  2. Buscador de tareas para filtrar una vez que las tareas se acumulen
  3. Botón posicionado en la esquina inferior derecha (especialmente útil para la versión web) que abre ventana modal para crear nuevas tareas
