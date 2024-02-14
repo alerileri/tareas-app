@@ -2,7 +2,7 @@ import React from 'react';
 import './ToDoSearch.css';
 import { ToDoContext } from '../ToDoContext';
 
-function ToDosearch(){
+function ToDoSearch(){
     const{searchValue, 
     setSearchValue
 } = React.useContext(ToDoContext);
@@ -19,4 +19,4 @@ function ToDosearch(){
     );
 };
 
-export { ToDosearch };
+export { ToDoSearch };

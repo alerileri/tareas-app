@@ -1,6 +1,7 @@
 import React from 'react';
+import { ToDoHeader } from '../Components/ToDoHeader';
 import { ToDoCounter } from '../Components/ToDoCounter';
-import { ToDosearch } from '../Components/ToDoSearch';
+import { ToDoSearch } from '../Components/ToDoSearch';
 import { ToDoList } from '../Components/ToDoList';
 import { Footer } from '../Components/Footer';
 import { ToDoItem } from '../Components/ToDoItem';
@@ -20,15 +21,26 @@ function AppUI() {
     completeToDo,
     deleteToDo,
     openModal,
-    setOpenModal
+    setOpenModal,
+    totalToDos,
+    completedToDos,
+    searchValue,
+    setSearchValue,
   } = React.useContext(ToDoContext)
 
   return (
     <>
       <section className='container'>
 
-        <ToDoCounter />
-        <ToDosearch />
+        <ToDoHeader>
+          <ToDoCounter
+            totalToDos={totalToDos}
+            completedToDos={completedToDos} />
+          <ToDoSearch
+            searchValue={searchValue}
+            setSearchValue={setSearchValue} />
+        </ToDoHeader>
+
 
         <ToDoList>
           {loading && <ToDosLoading />}
