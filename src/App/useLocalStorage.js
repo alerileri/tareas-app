@@ -50,15 +50,3 @@ function useLocalStorage(itemName, initialValue) {
 
 
 export { useLocalStorage };
-
-
-// const defaultToDos = [
-//   { text: 'Cortar cebolla', completed: true },
-//   { text: 'Tomar el curso de React', completed: false },
-//   { text: 'Llorar con la llorona', completed: false },
-//   { text: 'Lalalala', completed: false },
-//   { text: 'Bebe', completed: true }
-// ];
-
-// localStorage.setItem('todoish_v1', JSON.stringify(defaultToDos));
-// localStorage.removeItem('todoish_v1');

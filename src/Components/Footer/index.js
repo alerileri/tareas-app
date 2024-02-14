@@ -1,6 +1,6 @@
 import React from "react";
 import './Footer.css'
-import { CompleteIcon } from "../CompleteIcon";
+//import { CompleteIcon } from "../CompleteIcon";
 
 function Footer() {
     return (
